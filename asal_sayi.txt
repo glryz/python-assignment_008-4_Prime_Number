@@ -1,9 +1,9 @@
 # kullanıcı tarafından girilen sayının asal olup olmadığını bulan kod
 
 sayı = int(input("Please enter a number : "))
-for i in range(2, sayı):   # zaten tüm sayılar 1'e ve kendisine bölünebildiğinden bu şartları dışında tuttuk. 
-    if sayı % i == 0:      # sayı, 1 hariç kendisine kadar olan sayılardan birine tam olarak bölünürse asal değildir. 
+for i in range(2, sayı) :   # zaten tüm sayılar 1'e ve kendisine bölünebildiğinden bu şartları dışında tuttuk. 
+    if sayı % i == 0 :      # sayı, 1 hariç kendisine kadar olan sayılardan birine tam olarak bölünürse asal değildir. 
         print(sayı,"is not a prime number")
         break
-else:
+else :
     print(sayı,"is a prime number")
